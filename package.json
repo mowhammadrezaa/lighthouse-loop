@@ -38,6 +38,10 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/example/lighthouse-loop.git"
-  }
+    "url": "https://github.com/mowhammadrezaa/lighthouse-loop.git"
+  },
+  "bugs": {
+    "url": "https://github.com/mowhammadrezaa/lighthouse-loop/issues"
+  },
+  "homepage": "https://github.com/mowhammadrezaa/lighthouse-loop#readme"
 }

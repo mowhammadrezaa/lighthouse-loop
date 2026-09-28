@@ -12,10 +12,10 @@ Works on **macOS, Windows, and Linux**. Host-agnostic (Vercel, Netlify, Cloudfla
 
 ```bash
 # Option A — clone into personal skills
-git clone https://github.com/<you>/lighthouse-loop.git ~/.cursor/skills/lighthouse-loop
+git clone https://github.com/mowhammadrezaa/lighthouse-loop.git ~/.cursor/skills/lighthouse-loop
 
 # Option B — Skills CLI (when published)
-npx skills add <you>/lighthouse-loop
+npx skills add mowhammadrezaa/lighthouse-loop
 ```
 
 Then ask the agent: “run a lighthouse loop on https://example.com until fair”.
