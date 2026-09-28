@@ -1,0 +1,6 @@
+.browser-cache/
+node_modules/
+lighthouse-reports/
+*.log
+.DS_Store
+Thumbs.db

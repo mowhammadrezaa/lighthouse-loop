@@ -1,0 +1,43 @@
+{
+  "name": "lighthouse-loop",
+  "version": "1.0.0",
+  "description": "Cross-platform Lighthouse improve-and-recheck loop with durable comparison reports. Cursor Agent Skill + CLI.",
+  "type": "module",
+  "license": "MIT",
+  "bin": {
+    "lhloop-ensure": "./scripts/ensure-tools.mjs",
+    "lhloop-run": "./scripts/run-round.mjs",
+    "lhloop-parse": "./scripts/parse-scores.mjs",
+    "lhloop-compare": "./scripts/update-comparison.mjs"
+  },
+  "scripts": {
+    "ensure": "node scripts/ensure-tools.mjs",
+    "run-round": "node scripts/run-round.mjs",
+    "parse": "node scripts/parse-scores.mjs",
+    "compare": "node scripts/update-comparison.mjs"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "keywords": [
+    "lighthouse",
+    "performance",
+    "accessibility",
+    "seo",
+    "cursor",
+    "agent-skill",
+    "ci"
+  ],
+  "files": [
+    "SKILL.md",
+    "README.md",
+    "LICENSE",
+    "reference.md",
+    "examples.md",
+    "scripts/"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/example/lighthouse-loop.git"
+  }
+}
