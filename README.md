@@ -10,15 +10,25 @@ Works on **macOS, Windows, and Linux**. Host-agnostic (Vercel, Netlify, Cloudfla
 
 ## Install as a Cursor skill
 
-```bash
-# Option A — clone into personal skills
-git clone https://github.com/mowhammadrezaa/lighthouse-loop.git ~/.cursor/skills/lighthouse-loop
+No npm publish is required. The Skills CLI installs from the **public GitHub repo**:
 
-# Option B — Skills CLI (when published)
+```bash
 npx skills add mowhammadrezaa/lighthouse-loop
 ```
 
-Then ask the agent: “run a lighthouse loop on https://example.com until fair”.
+Global (user-level):
+
+```bash
+npx skills add mowhammadrezaa/lighthouse-loop -g -y
+```
+
+List without installing:
+
+```bash
+npx skills add mowhammadrezaa/lighthouse-loop --list
+```
+
+Browse: https://skills.sh/mowhammadrezaa/lighthouse-loop (appears after install telemetry)
 
 ## Requirements
 
